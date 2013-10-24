@@ -1,0 +1,39 @@
+start_test_server_in_background
+stop_test_server
+exit
+start_test_server_in_background
+query("button")
+query("button index:0")
+query("view index:0")
+touch("button index:0")
+uia_tap_mark "myBtn"
+exit
+start_test_server_in_background
+start_test_server_in_background
+query("view index:0")
+query("button index:0")
+touch("button index:0")
+launcher = Calabash::Cucumber::Launcher.new
+Calabash::Cucumber::Launcher.new
+require 'calabash/cucumber'
+require 'rubygems';
+require 'rubygems'
+exit
+require 'rubygems'
+require 'calabash/cucumber'
+require 'calabash'
+start_test_server_in_background(:timeout => 30)
+touch("button index:0")
+exit
+start_test_server_in_background(:timeout => 30)
+touch("button index:1")
+touch("button marked:'D'")
+query("view")
+touch("view marked:'Do Something Button')
+)
+")
+touch("view marked:'Do Something Button'")
+exit
+start_test_server_in_background
+touch("view marked:'Do Something Button'")
+exit
